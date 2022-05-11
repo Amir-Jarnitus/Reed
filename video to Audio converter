@@ -1,9 +1,9 @@
-from pytube import YouTube
+from pytube import YouTube # imports the required things for this to work
 import pytube
 import os
 
 def main():
-    video_url = input('Enter YouTube video URL: ')
+    video_url = input('Enter YouTube video URL: ') # this will get the Url from the user
 
     if os.name == 'nt':
         path = os.getcwd() + '\\'
