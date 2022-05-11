@@ -1,0 +1,4 @@
+x = 5
+y = 44
+if x <= y:
+    print("x is lower than y")
